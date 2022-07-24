@@ -1,0 +1,32 @@
+{
+  "name": "fullstack-wordle",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fullstack Wordle Game (MERN)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirPhenomenal/fullstack-wordle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirPhenomenal/fullstack-wordle/issues"
+  },
+  "homepage": "https://github.com/AmirPhenomenal/fullstack-wordle#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
