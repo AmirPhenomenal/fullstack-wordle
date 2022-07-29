@@ -10,11 +10,11 @@ A More Secure <b>Fullstack</b> Wordle Game  That Uses <b>NodeJs</b> And <b>React
 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
  </p>
 </p>
-<h2 align="center">Intro</h1>
+<h1 align="center">Intro</h1>
 
 This wordle game does not let the client have the correct word and communicates with backend to check the word , this improves game security and makes this project a great fit for using it to build a multiplayer/competitive game .
 
-<h2 align="center">Getting Started</h1>
+<h1 align="center">Getting Started</h1>
 
 This Project Has Two Parts And You Have To Start Both Parts . 
 ### To Start Server:
