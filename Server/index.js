@@ -6,7 +6,7 @@ import messages from "./constants/messages.js";
 
 const app = express();
 app.use(express.json());
-// app.use(cors);
+app.use(cors());
 app.use("/wordle", wordleRoutes);
 app.use((err, req, res, next) => {
   if (err) {

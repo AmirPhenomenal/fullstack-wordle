@@ -1,0 +1,30 @@
+.flip {
+  animation: flip 0.5s ease-in-out;
+}
+
+.typeEffect {
+  animation: typeEffect 0.2s ease-in-out;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+
+  100% {
+    transform: perspective(400px) rotateX(360deg);
+  }
+}
+@keyframes typeEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

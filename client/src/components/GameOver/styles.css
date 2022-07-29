@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+div {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.green {
+  color: #53b724;
+}
+.red {
+  color: #ca631f;
+}

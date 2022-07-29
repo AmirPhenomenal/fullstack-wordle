@@ -3,6 +3,7 @@ import { setTodayWord, getTodayWord } from "../actions/todayWord.js";
 import messages from "../constants/messages.js";
 
 export const checkWord = async (req, res) => {
+  //TODO : Check Word Validation
   try {
     console.log(req.body);
     const { userWord, gameWord } = req.body;
@@ -41,7 +42,6 @@ export const checkWord = async (req, res) => {
         editableTodayWord = editableTodayWord.replace(userWord[i], "");
       }
     }
-    //   setTodayWord("amir");
     return res.status(200).json({ result });
   } catch (error) {
     console.log(error);
@@ -50,6 +50,7 @@ export const checkWord = async (req, res) => {
 };
 export const getWord = async (req, res) => {
   try {
+    console.log("getWord");
     const todayWord = getTodayWord();
     console.log("gettingWord : ", todayWord.word);
     const hashWord = await bcrypt.hash(todayWord.word, 12);

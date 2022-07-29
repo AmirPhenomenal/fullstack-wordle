@@ -16,7 +16,6 @@ const updateWord = async () => {
   });
   const result = await db.get("SELECT * FROM words ORDER BY RANDOM() LIMIT 1");
   setTodayWord(result.word);
-  console.log(chalk.bgCyan("\t  [Word Updated]  "));
 };
 
 export const dayWordUpdater = async () => {
